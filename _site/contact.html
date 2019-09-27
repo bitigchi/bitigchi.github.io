@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="/assets/css/styles.css" />
         <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
         <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Contact</title>
@@ -33,31 +33,37 @@
         </header>
 
         <main>
-            <form id="contact" action="" method="post">
+            <form id="contact" action="https://usebasin.com/f/f47f8e9c9743" method="POST">
+    
     <h1>Contact me</h1>
+    
     <div="name">
-        <p>Name:</p>
         <p>
-        <input placeholder="Enter your name" type="text" tabindex="1" required autofocus>
+        <label for="name">Name:</label>
+        <input id="name" placeholder="Enter your name" type="text" tabindex="1" required autofocus>
         </p>
     </div>
-    <div="e-mail">
-        <p>E-mail (required):</p>
+
+    <div="email">
         <p>
-        <input placeholder="Enter your e-mail" type="email" tabindex="2" required>
+        <label for="email-address">E-mail (required):</label>
+        <input id="email" placeholder="Enter your e-mail" type="email" tabindex="2" required>
         </p>
     </div>
+
     <div="textbox">
-        <p>Enter your message below:</p>
         <p>
-        <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+        <label for="text">Message:</label>
+        <textarea id="text" placeholder="Type your message here...." type="text" tabindex="3" required></textarea>
         </p>
     </div>
+
     <div="submit">
         <p>
-        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-        </p
-    </div>>
+        <button name="submit" type="submit" id="submit" data-submit="...Sending">Submit</button>
+        </p>
+    </div>
+    
 </form>
 
         </main>
