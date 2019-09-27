@@ -1,0 +1,20 @@
+---
+layout: default
+title: Emir Sarı
+---
+
+<h1>Latest posts</h1>
+
+<ul>
+    {% for post in site.posts %}
+        <li>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p> {{ post.date | date_to_string }}
+            {% for author in site.authors %}
+            - <a href="{{ author.url }}">{{ author.name }}</a>
+            {% endfor %}</p>
+            <p>{{ post.excerpt }}{% if post.excerpt != post.content %}<a href="{{ site.baseurl }}{{ post.url }}">...read more</a>
+            {% endif %}</p>
+        </li>
+    {% endfor %}
+</ul>
