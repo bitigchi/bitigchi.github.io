@@ -3,7 +3,7 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"../../Projeler/GitHub/bitigchi.github.io/_sass/main.scss"
+		"_sass/main.scss"
 	],
 	"sourcesContent": [
 		"@import \"main\";\n",
