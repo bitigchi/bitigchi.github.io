@@ -3,3 +3,12 @@
 
 - name: Donate
   link: /donate.html
+
+- name: Github
+  link: https://github.com/bitigchi
+
+- name: Twitter
+  link: https://twitter.com/bitigchi
+
+- name: Mastodon
+  link: https://mastodon.social/web/accounts/864602#  

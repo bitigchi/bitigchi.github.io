@@ -4,10 +4,12 @@ title: About
 ---
 
 # About
-This webpage is created using Jekyll/plain HTML. No JavaScript included.
+This webpage is created using [Jekyll](https://jekyllrb.com)/plain HTML. No JavaScript included.
 
-Terminal theme taken from terminal.css.
+Coded on [vim](https://vim.org).
 
-This web page offers full compatibility with command-line browsers like Links, and/or w3m. lynx has issues with character sets other than standard Latin; you might want to avoid it.
+Terminal theme adopted from [terminal.css](https://terminalcss.xyz)
 
-To contact, please use the "Contact" link below on page footer. If you like my work, and would like to buy me a coffee, please visit Donate link below as well -- greatly appreciated.
+This web page offers full compatibility with command-line browsers like [Links](http://links.twibright.com), and/or [w3m](http://w3m.sourceforge.net). [Lynx](http://lynx.browser.org) has issues with character sets other than standard Latin; you might want to avoid it.
+
+For any feedback, please contact me using [this form](/contact.html). If you like my work, you might want to [buy me a coffee](/donate.html)  -- would be greatly appreciated.

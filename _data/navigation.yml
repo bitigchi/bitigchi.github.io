@@ -1,8 +1,11 @@
 - name: Emir Sarı
   link: /
 
-- name: Downloads
-  link: /downloads.html
+- name: Old Turkic
+  link: /oldTurkic.html
+
+- name: Apps/Software
+  link: /software.html
 
 - name: About
   link: /about.html
