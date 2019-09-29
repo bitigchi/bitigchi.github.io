@@ -149,7 +149,7 @@ table tbody td:first-child { font-weight: 700; color: var(var(--secondary-color)
 
 .form { width: 100%; }
 
-fieldset { border: 1px solid var(--font-color); padding: 1em; }
+fieldset { border: 1px solid var(--font-color); padding: 1em; margin-top: 1em; margin-bottom: 1em; }
 
 label { font-size: 1em; color: var(--font-color); }
 

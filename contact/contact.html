@@ -2,43 +2,34 @@
 layout: default
 title: Contact
 ---
-<h1>Contact</h1>
-
 <form id="contact" action="https://fncontact.com/personal-contact/post" method="POST">
-    
-<!--    <p><strong>Warning:</strong> Below contact form transmits unencrypted data. For a PGP-encrypted version, please click here.</p> --!>
+    <fieldset>
+    <legend>Contact form</legend>
+        <div class="form-group">
+            <p>
+            <label for="name">Name:</label>
+            <input name="name" id="name" placeholder="Enter your name" type="text" tabindex="1" required autofocus>
+            </p>
 
-    <div="name">
-        <p>
-        <label for="name">Name:</label>
-        <input name="name" id="name" placeholder="Enter your name" type="text" tabindex="1" required autofocus>
-        </p>
-    </div>
+            <p>
+            <label for="email-address">E-mail (required):</label>
+            <input name="email" id="email" placeholder="Enter your e-mail" type="text" tabindex="2" required>
+            </p>
 
-    <div="email">
-        <p>
-        <label for="email-address">E-mail (required):</label>
-        <input name="email" id="email" placeholder="Enter your e-mail" type="text" tabindex="2" required>
-        </p>
-    </div>
-
-    <div="textarea">
-        <p>
-        <label for="text">Message:</label>
-        <textarea name="message" id="message" placeholder="Type your message here...." tabindex="3" required></textarea>
-        </p>
-    </div>
+            <p>
+            <label for="text">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="6" placeholder="Type your message here...." tabindex="3" required></textarea>
+            </p>
     
-    <div id='fnContactCaptcha'></div>
-    <script src='https://fncontact.com/captcha.js'></script>
+            <script src='https://fncontact.com/captcha.js'></script>
     
-    <div="submit">
-        <p>
-        <button type="submit">Submit</button>
-        </p>
-    </div>
+            <p>
+            <button type="submit">Submit</button>
+            </p>
     
-    <input type="hidden" name="url_success" value="http://your-success-page" />
-    <input type="hidden" name="url_error" value="http://your-error-page" />
+            <input type="hidden" name="url_success" value="http://your-success-page" />
+            <input type="hidden" name="url_error" value="http://your-error-page" />
     
+        </div>
+    </fieldset>
 </form>

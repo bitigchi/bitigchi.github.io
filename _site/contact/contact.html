@@ -9,7 +9,7 @@
         <meta property="og:title" content="Contact">
         <meta property="og:url" content="http://localhost:4000/contact/contact.html">
         <meta property="og:image" content="http://localhost:4000/thumbs/" />
-        <meta property="og:site_name" content="Bitigçi | 𐰋𐰯𐱅𐰏𐰲𐰏">
+        <meta property="og:site_name" content="Bitigçi">
         <meta property="article:published_time" content="" />
         <meta property="og:description" content="">
 
@@ -46,7 +46,7 @@
             <header>
                 <nav>
     
-        <a href="/" >Bitigçi - 𐰋𐰯𐱅𐰏𐰲𐰏</a> |
+        <a href="/" >Bitigçi</a> |
     
         <a href="/oldTurkic.html" >Old Turkic</a> |
     
@@ -59,45 +59,36 @@
             </header>
 
             <main>
-                <h1>Contact</h1>
+                <form id="contact" action="https://fncontact.com/personal-contact/post" method="POST">
+    <fieldset>
+    <legend>Contact form</legend>
+        <div class="form-group">
+            <p>
+            <label for="name">Name:</label>
+            <input name="name" id="name" placeholder="Enter your name" type="text" tabindex="1" required autofocus>
+            </p>
 
-<form id="contact" action="https://fncontact.com/personal-contact/post" method="POST">
-    
-<!--    <p><strong>Warning:</strong> Below contact form transmits unencrypted data. For a PGP-encrypted version, please click here.</p> --!>
+            <p>
+            <label for="email-address">E-mail (required):</label>
+            <input name="email" id="email" placeholder="Enter your e-mail" type="text" tabindex="2" required>
+            </p>
 
-    <div="name">
-        <p>
-        <label for="name">Name:</label>
-        <input name="name" id="name" placeholder="Enter your name" type="text" tabindex="1" required autofocus>
-        </p>
-    </div>
-
-    <div="email">
-        <p>
-        <label for="email-address">E-mail (required):</label>
-        <input name="email" id="email" placeholder="Enter your e-mail" type="text" tabindex="2" required>
-        </p>
-    </div>
-
-    <div="textarea">
-        <p>
-        <label for="text">Message:</label>
-        <textarea name="message" id="message" placeholder="Type your message here...." tabindex="3" required></textarea>
-        </p>
-    </div>
+            <p>
+            <label for="text">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="6" placeholder="Type your message here...." tabindex="3" required></textarea>
+            </p>
     
-    <div id='fnContactCaptcha'></div>
-    <script src='https://fncontact.com/captcha.js'></script>
+            <script src='https://fncontact.com/captcha.js'></script>
     
-    <div="submit">
-        <p>
-        <button type="submit">Submit</button>
-        </p>
-    </div>
+            <p>
+            <button type="submit">Submit</button>
+            </p>
     
-    <input type="hidden" name="url_success" value="http://your-success-page" />
-    <input type="hidden" name="url_error" value="http://your-error-page" />
+            <input type="hidden" name="url_success" value="http://your-success-page" />
+            <input type="hidden" name="url_error" value="http://your-error-page" />
     
+        </div>
+    </fieldset>
 </form>
 
             </main>

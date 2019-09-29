@@ -3,7 +3,7 @@ collections:
     output: true
 
 defaults:
-  - title: Bitigçi | 𐰋𐰯𐱅𐰏𐰲𐰏
+  - title: Bitigçi
   - description: Personal web page of Emir Sarı, as well as resources on how to type Old Turkic script on modern operating systems.
   - url: https://bitigchi.github.io
   - author: Emir Sarı
