@@ -3,10 +3,12 @@ collections:
     output: true
 
 defaults:
-  - title: "Emir Sarı"
-  - description: "Personal web page of Emir Sarı"
+  - title: Bitigçi | 𐰋𐰯𐱅𐰏𐰲𐰏
+  - description: Personal web page of Emir Sarı, as well as resources on how to type Old Turkic script on modern operating systems.
   - url: https://bitigchi.github.io
-  - author: "Emir Sarı"
+  - author: Emir Sarı
+  - permalink: date  
+
   - twitter:
       username: bitigchi
       card: summary
@@ -15,6 +17,7 @@ defaults:
       links:
           - https://twitter.coml/bitigchi
           - https://github.com/bitigchi
+
   - scope:
       path: ""
       type: "authors"
