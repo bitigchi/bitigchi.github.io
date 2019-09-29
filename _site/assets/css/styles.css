@@ -1,4 +1,4 @@
-:root { --global-font-size:15px; --global-line-height:1.4em; --global-space:10px; --font-stack:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif; --mono-font-stack:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif; --background-color:#222225; --page-width:60em; --font-color:#e8e9ed; --invert-font-color:#222225; --primary-color:#62c4ff; --secondary-color:#a3abba; --error-color:#ff3c74; --progress-bar-background:#3f3f44; --progress-bar-fill:#62c4ff; --code-bg-color:#3f3f44; --input-style:solid; --display-h1-decoration:none
+:root { --global-font-size:15px; --global-line-height:1.4em; --global-space:10px; --font-stack:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif; --mono-font-stack:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif; --background-color:#222225; --page-width:60em; --font-color:#e8e9ed; --invert-font-color:#222225; --primary-color:#ffcc00; --secondary-color:#a3abba; --error-color:#ff3c74; --progress-bar-background:#3f3f44; --progress-bar-fill:#62c4ff; --code-bg-color:#3f3f44; --input-style:solid; --display-h1-decoration:none
 ; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; text-rendering: geometricPrecision; }
@@ -205,7 +205,7 @@ input:-webkit-autofill, input:-webkit-autofill:focus textarea:-webkit-autofill, 
 
 .btn-primary { color: var(--invert-font-color); background-color: var(--primary-color); border: 1px solid var(--primary-color); }
 
-.btn-primary:focus:not(.btn-ghost), .btn-primary:hover { background-color: var(--primary-color); border-color: var(--primary-color); }
+btn-primary:focus:not(.btn-ghost), .btn-primary:hover { background-color: var(--primary-color); border-color: var(--primary-color); }
 
 .btn-primary.btn-ghost { border-color: var(--primary-color); color: var(--primary-color); }
 

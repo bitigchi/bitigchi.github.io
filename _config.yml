@@ -3,6 +3,18 @@ collections:
     output: true
 
 defaults:
+  - title: "Emir Sarı"
+  - description: "Personal web page of Emir Sarı"
+  - url: https://bitigchi.github.io
+  - author: "Emir Sarı"
+  - twitter:
+      username: bitigchi
+      card: summary
+  - social:
+      name: Emir Sarı
+      links:
+          - https://twitter.coml/bitigchi
+          - https://github.com/bitigchi
   - scope:
       path: ""
       type: "authors"

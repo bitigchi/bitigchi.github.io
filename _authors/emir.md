@@ -1,7 +1,5 @@
 ---
 short_name: Emir
 name: Emir Sarı
-position: Geliştirici, geek, umursamaz
+position: Swift developer, FOSS enthusiast and advocate, part-time faux-linguist
 ---
-
-Emir bir işe yaramayan umursamaz ibnenin tekidir.
