@@ -1,6 +1,8 @@
 :root { --global-font-size:15px; --global-line-height:1.4em; --global-space:10px; --font-stack:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif; --mono-font-stack:Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif; --background-color:#222225; --page-width:60em; --font-color:#e8e9ed; --invert-font-color:#222225; --primary-color:#ffcc00; --secondary-color:#a3abba; --error-color:#ff3c74; --progress-bar-background:#3f3f44; --progress-bar-fill:#62c4ff; --code-bg-color:#3f3f44; --input-style:solid; --display-h1-decoration:none
 ; }
 
+.current { color: #ff9500; }
+
 * { -webkit-box-sizing: border-box; box-sizing: border-box; text-rendering: geometricPrecision; }
 
 ::-moz-selection { background: var(--primary-color); color: var(--invert-font-color); }
