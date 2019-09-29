@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Old Turkic
+description: Resources for typing Old Turkic script on modern operating systems. Including keyboard layouts and fonts.
 ---
 # Typing Old Turkic 
 ## Keyboard layouts
