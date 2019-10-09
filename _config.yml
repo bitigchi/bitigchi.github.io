@@ -2,35 +2,35 @@ collections:
     authors:
         output: true
 
-defaults:
-    - title: Bitigçi
-    - description: Personal web page of Emir Sarı, as well as resources on how to type Old Turkic script on modern operating systems.
-    - url: https://bitigchi.github.io
-    - author: Emir Sarı
-    - permalink: date  
+title: Bitigçi
 
-    - twitter:
-        username: bitigchi
-        card: summary
-    - social:
-        name: Emir Sarı
-        links:
-            - https://twitter.coml/bitigchi
-            - https://github.com/bitigchi
+description: Blog about programming and languages, as well as resources on how to type Old Turkic on modern systems.
+
+author:
+    name: Emir Sarı
+
+permalink: date
+
+social-network-links:
+    rss: true
+    twitter: bitigchi
+    github: bitigchi
+
+defaults:
     - scope:
         path: ""
         type: "authors"
-        values:
-            layout: "author"
+      values:
+        layout: "author"
     - scope:
         path: ""
         type: "posts"
-        values:
-            layout: "post"
+      values:
+        layout: "post"
     - scope:
         path: ""
-        values:
-            layout: "default"
+      values:
+        layout: "default"
 
 plugins:
     - jekyll-feed

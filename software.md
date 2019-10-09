@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Apps/Software
+description: Software by Emir Sarı
 ---
 # Apps/Software
 Here you can find some software that I've written.
