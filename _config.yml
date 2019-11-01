@@ -11,6 +11,9 @@ author:
 
 permalink: date
 
+languages: ["tr", "en", "ru"]
+exclude_from_localizations: ["_javascript", "_images", "_sass", "assets", "vendor"]
+
 social-network-links:
     rss: true
     twitter: bitigchi
