@@ -13,6 +13,8 @@ Orkun damgalarının bulunduğu Unicode kod alanında toplam 73 damga bulunuyor.
 
 ![Görsel 1: Dizilimin genel görünümü](/assets/images/nov2019/layout.png)
 
+Öncelikle belirtmeliyim ki, bu dizilim Eski Türkçe ve Eski Türkçe söz varlığı temel alınarak hazırlanmıştır. Dolayısıyla Türkiye Türkçesi ve çağdaş metinlerin yazımı için beklediğiniz kadar uygun olmayabilir.
+
 İndirmek için:
 * [macOS](/oldTurkic/mac_old_turkic.zip)
 * [Linux](/oldTurkic/linux_old_turkic.zip)
