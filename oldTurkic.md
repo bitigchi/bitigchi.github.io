@@ -10,9 +10,9 @@ To use Old Turkic script in your computer, you can download packages for your op
 For macOS, if you want to install the keyboard layout in user-level, put the contents in `/your_user_name/Library/Keyboard Layouts`. If you would like to install it for all users, you can put it in `/Library/Keyboard Layouts`. This will make it available for all users of the system.
 
 For Windows, just install the keyboard layout by double clicking on setup.exe inside the package.
-* [Windows](/oldTurkic/orkunwin.zip)
-* [macOS](/oldTurkic/orkunmac.zip)
-* [Linux](/oldTurkic/orkunlin.zip)
+* [Windows](/oldTurkic/win_old_turkic.zip)
+* [macOS](/oldTurkic/mac_old_turkic.zip)
+* [Linux](/oldTurkic/linux_old_turkic.zip)
 
 ## Old Turkic typefaces
 * [Orkun](/oldTurkic/Orkun-Regular.otf)

@@ -2,7 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/authors/emir.html</loc>
-<lastmod>2019-11-01T15:18:39+03:00</lastmod>
+<lastmod>2019-11-02T17:46:42+03:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2019/11/02/yeniETklavye.html</loc>
+<lastmod>2019-11-02T00:00:00+03:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about.html</loc>
@@ -30,5 +34,17 @@
 </url>
 <url>
 <loc>http://localhost:4000/contact/success.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/g%C3%B6kt%C3%BCrk%C3%A7e/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/eski%20t%C3%BCrk%C3%A7e/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/old%20turkic/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/klavye/</loc>
 </url>
 </urlset>
