@@ -20,7 +20,7 @@ Orkun damgalarının bulunduğu Unicode kod alanında toplam 73 damga bulunuyor.
 
 Ayrıntılı yönergeler her bir `.zip` dosyasının içinde mevcut. Herhangi bir hata veya soru için lütfen bana ulaşın.
 
-Eğer damgaları görüntüleyemiyorsanız, güncel bir işletim sistemi kullandığınızdan ve bilgisayarınızda bir Eski Türkçe yazıtipinin yüklü olduğundan emin olun. Win 8.1 ve macOS 10.11 Eski Türkçe yazıtipleri yüklü gelmektedir. Linux dağıtımları için yine yukarıdaki bağlantıdan istediğiniz bir yazıtipini indirebilirsiniz. Paket yöneticinizde büyük olasılıkla Noto yazıtipleri olacaktır, bu yazıtiplerinde de Eski Türkçe desteği mevcut.
+Eğer damgaları görüntüleyemiyorsanız, güncel bir işletim sistemi kullandığınızdan ve bilgisayarınızda bir Eski Türkçe yazıtipinin yüklü olduğundan emin olun. Win 8.1 ve macOS 10.11 sonrası Eski Türkçe yazıtipleri ile yüklü gelmektedir. Linux dağıtımları için yine yukarıdaki bağlantıdan istediğiniz bir yazıtipini indirebilirsiniz. Paket yöneticinizde büyük olasılıkla Noto yazıtipleri olacaktır, bu yazıtiplerinde de Eski Türkçe desteği mevcut.
 
 Şimdi ayrıntılara gelelim
 
