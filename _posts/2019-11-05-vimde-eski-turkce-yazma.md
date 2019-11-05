@@ -62,6 +62,6 @@ OET: 𐰇, 𐰜
 
 YET: 𐰈, 𐰝
 
-Bu damgaları sırasıyla `oe` ve `oek` girerek çıkartabilirsiniz. Eklemem gereken bir şey daha var ki, bu özellik Vim'e eklenirken her damga için üç veya daha fazla dizgi tanımlanmış. Eğer bu dizgileri görmek isterseniz [bu adresten](https://github.com/runtime/keymap) ilgili dosyaları inceleyebilirsiniz.
+Bu damgaları sırasıyla `oe` ve `oek` girerek çıkartabilirsiniz. Eklemem gereken bir şey daha var ki, bu özellik Vim'e eklenirken her damga için üç veya daha fazla dizgi tanımlanmış. Eğer bu dizgileri görmek isterseniz [bu adresten](https://github.com/vim/vim/tree/master/runtime/keymap) ilgili dosyaları inceleyebilirsiniz.
 
 Orhun-Yenisey kipinden çıkmak ve normal Latin kipine geçmek için `:set keymap=` yazmanız yeterli. Sorularınız olursa ulaşmaktan çekinmeyin!
