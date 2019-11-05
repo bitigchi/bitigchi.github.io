@@ -1,5 +1,5 @@
 ---
-title: Vim'de Eski Türkçe Yazmak"
+title: Vim'de Eski Türkçe Yazmak
 tags: ["vim", "göktürkçe", "old turkic", "eski türkçe"]
 lang: tr
 layout: post
