@@ -30,7 +30,7 @@ TLA: Bu ses biter mi?
 
 OET: 𐰉𐰆 𐰾𐰾 𐰋𐰃𐱅𐰀𐰼 𐰢𐰃?
 
-YET: 𐰊𐰆 𐰾𐰅𐰾 𐰌𐰄𐱆𐰄𐰼 𐰢𐰄?
+YET: 𐰊𐰆 𐰾𐰅𐰾 𐰌𐰄𐱆𐰁𐰼 𐰢𐰄?
 
 "Bu" sözcüğüne bakalım:
 
