@@ -52,7 +52,7 @@ YET: 𐰊𐰆 𐰾𐰅𐰾 𐰌𐰄𐱆𐰁𐰼 𐰢𐰄?
 "Mi" sözcüğüne bakalım:
 
 * Orhun yazımı: 𐰢𐰃, içerdiği damgalar m ve i. M damgasının ayrı bir ince ve kalın sürümü olmadığından, demeli tek damga ile yazıldığından `m` veya `em` yazabilirsiniz. İ sesi için yine `I` yazıyoruz.
-* Yenisey yazımı: 𐰢𐰄, içerdiği damgalar m ve i. Yazımı Orhun yazımı ile aynı.
+* Yenisey yazımı: 𐰢𐰄, içerdiği damgalar m ve i.
 
 Örnekte bulunmuyar ancak ö ve ü içeren damgalar için yine Latin yazıçevrimini kullanıyoruz:
 
