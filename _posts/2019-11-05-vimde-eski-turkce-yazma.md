@@ -8,7 +8,7 @@ Vim yeni başlayanlar için korkutucu görünse de, özünde pek çok yararlı �
 
 Düğme eşlem özelliği kısaca belirli düğme dizgileri kullanıldığında belirli karakterleri ekrana yazdırmayı sağlayan bir özellik. Özellikle standart Latin dışı karakterleri sık kullanıyorsanız bu özellik baya işinize yarayacaktır. Bu özelliği bugün çağdaş masaüstü ve taşınabilir işletim dizgelerinde, özellikle sohbet uygulamalarında belirli kalıpları kısaltmak için kullanıyoruz. Vim, öntanımlı olarak baya bir geniş karakter/alfabeler aralığı için şablonlar içeriyor. Bu şablonlar arasında Eski Türkçe hem Orhun hem de Yenisey damgaları ile bulunuyor. Gelin bu özelliği nasıl kullanacağımızı öğrenelim.
 
-Vim'i çalıştırmak için uçbirim öykünücünüzü açıp `vim` yazın. Eğer Windows kullanıyorsanız [bu adresten](www.vim.org) grafik arabirim içeren sürümünü kurabilirsiniz. Vim açıldıktan sonra doğrudan komut kipinde başlar.
+Vim'i çalıştırmak için uçbirim öykünücünüzü açıp `vim` yazın. Eğer Windows kullanıyorsanız [bu adresten](https://www.vim.org) grafik arabirim içeren sürümünü kurabilirsiniz. Vim açıldıktan sonra doğrudan komut kipinde başlar.
 
 Orhun kipine geçmek için komut kipindeyken:
 
@@ -62,6 +62,6 @@ OET: 𐰇, 𐰜
 
 YET: 𐰈, 𐰝
 
-Bu damgaları sırasıyla `oe` ve `oek` girerek çıkartabilirsiniz. Eklemem gereken bir şey daha var ki, bu özellik Vim'e eklenirken her damga için üç veya daha fazla dizgi tanımlanmış. Eğer bu dizgileri görmek isterseniz [bu adresten](github.com/runtime/keymap) ilgili dosyaları inceleyebilirsiniz.
+Bu damgaları sırasıyla `oe` ve `oek` girerek çıkartabilirsiniz. Eklemem gereken bir şey daha var ki, bu özellik Vim'e eklenirken her damga için üç veya daha fazla dizgi tanımlanmış. Eğer bu dizgileri görmek isterseniz [bu adresten](https://github.com/runtime/keymap) ilgili dosyaları inceleyebilirsiniz.
 
 Orhun-Yenisey kipinden çıkmak ve normal Latin kipine geçmek için `:set keymap=` yazmanız yeterli. Sorularınız olursa ulaşmaktan çekinmeyin!
