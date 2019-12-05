@@ -7,7 +7,7 @@
         
         <meta property="og:locale" content="en">
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Vim'de Eski Türkçe Yazmak"">
+        <meta property="og:title" content="Vim'de Eski Türkçe Yazmak">
         <meta property="og:url" content="http://localhost:4000/2019/11/05/vimde-eski-turkce-yazma.html">
         <meta property="og:image" content="http://localhost:4000/thumbs/" />
         <meta property="og:site_name" content="Bitigçi">
@@ -19,7 +19,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google-site-verification" content="bb3ESMnliXl71pTurYsm13hubExtqdW6F1Zi6_hSHAw" />
         <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:title" content="Vim'de Eski Türkçe Yazmak"">
+        <meta name="twitter:title" content="Vim'de Eski Türkçe Yazmak">
         <meta name="twitter:description" content="Blog about programming and languages, as well as resources on how to type Old Turkic on modern systems.">
         <meta name="twitter:site" content="@bitigchi" />
         <meta name="twitter:creator" content="@bitigchi">
@@ -31,7 +31,7 @@
         <link rel="canonical" href="http://localhost:4000">
         <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Bitigçi" />
 
-        <title>Vim'de Eski Türkçe Yazmak"</title>
+        <title>Vim'de Eski Türkçe Yazmak</title>
     </head>
 
     <body class="terminal">
@@ -52,7 +52,7 @@
             </header>
 
             <main>
-                <h1>Vim'de Eski Türkçe Yazmak"</h1>
+                <h1>Vim'de Eski Türkçe Yazmak</h1>
 <p>
     05 Nov 2019
     
@@ -62,7 +62,7 @@
 
 <p>Düğme eşlem özelliği kısaca belirli düğme dizgileri kullanıldığında belirli karakterleri ekrana yazdırmayı sağlayan bir özellik. Özellikle standart Latin dışı karakterleri sık kullanıyorsanız bu özellik baya işinize yarayacaktır. Bu özelliği bugün çağdaş masaüstü ve taşınabilir işletim dizgelerinde, özellikle sohbet uygulamalarında belirli kalıpları kısaltmak için kullanıyoruz. Vim, öntanımlı olarak baya bir geniş karakter/alfabeler aralığı için şablonlar içeriyor. Bu şablonlar arasında Eski Türkçe hem Orhun hem de Yenisey damgaları ile bulunuyor. Gelin bu özelliği nasıl kullanacağımızı öğrenelim.</p>
 
-<p>Vim’i çalıştırmak için uçbirim öykünücünüzü açıp <code class="highlighter-rouge">vim</code> yazın. Eğer Windows kullanıyorsanız <a href="www.vim.org">bu adresten</a> grafik arabirim içeren sürümünü kurabilirsiniz. Vim açıldıktan sonra doğrudan komut kipinde başlar.</p>
+<p>Vim’i çalıştırmak için uçbirim öykünücünüzü açıp <code class="highlighter-rouge">vim</code> yazın. Eğer Windows kullanıyorsanız <a href="https://www.vim.org">bu adresten</a> grafik arabirim içeren sürümünü kurabilirsiniz. Vim açıldıktan sonra doğrudan komut kipinde başlar.</p>
 
 <p>Orhun kipine geçmek için komut kipindeyken:</p>
 
@@ -86,7 +86,7 @@
 
 <p>OET: 𐰉𐰆 𐰾𐰾 𐰋𐰃𐱅𐰀𐰼 𐰢𐰃?</p>
 
-<p>YET: 𐰊𐰆 𐰾𐰅𐰾 𐰌𐰄𐱆𐰄𐰼 𐰢𐰄?</p>
+<p>YET: 𐰊𐰆 𐰾𐰅𐰾 𐰌𐰄𐱆𐰁𐰼 𐰢𐰄?</p>
 
 <p>“Bu” sözcüğüne bakalım:</p>
 
@@ -117,7 +117,7 @@
 
 <ul>
   <li>Orhun yazımı: 𐰢𐰃, içerdiği damgalar m ve i. M damgasının ayrı bir ince ve kalın sürümü olmadığından, demeli tek damga ile yazıldığından <code class="highlighter-rouge">m</code> veya <code class="highlighter-rouge">em</code> yazabilirsiniz. İ sesi için yine <code class="highlighter-rouge">I</code> yazıyoruz.</li>
-  <li>Yenisey yazımı: 𐰢𐰄, içerdiği damgalar m ve i. Yazımı Orhun yazımı ile aynı.</li>
+  <li>Yenisey yazımı: 𐰢𐰄, içerdiği damgalar m ve i.</li>
 </ul>
 
 <p>Örnekte bulunmuyar ancak ö ve ü içeren damgalar için yine Latin yazıçevrimini kullanıyoruz:</p>
@@ -128,7 +128,7 @@
 
 <p>YET: 𐰈, 𐰝</p>
 
-<p>Bu damgaları sırasıyla <code class="highlighter-rouge">oe</code> ve <code class="highlighter-rouge">oek</code> girerek çıkartabilirsiniz. Eklemem gereken bir şey daha var ki, bu özellik Vim’e eklenirken her damga için üç veya daha fazla dizgi tanımlanmış. Eğer bu dizgileri görmek isterseniz <a href="github.com/runtime/keymap">bu adresten</a> ilgili dosyaları inceleyebilirsiniz.</p>
+<p>Bu damgaları sırasıyla <code class="highlighter-rouge">oe</code> ve <code class="highlighter-rouge">oek</code> girerek çıkartabilirsiniz. Eklemem gereken bir şey daha var ki, bu özellik Vim’e eklenirken her damga için üç veya daha fazla dizgi tanımlanmış. Eğer bu dizgileri görmek isterseniz <a href="https://github.com/vim/vim/tree/master/runtime/keymap">bu adresten</a> ilgili dosyaları inceleyebilirsiniz.</p>
 
 <p>Orhun-Yenisey kipinden çıkmak ve normal Latin kipine geçmek için <code class="highlighter-rouge">:set keymap=</code> yazmanız yeterli. Sorularınız olursa ulaşmaktan çekinmeyin!</p>
 
