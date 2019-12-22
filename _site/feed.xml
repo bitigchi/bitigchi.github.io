@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-05T19:44:48+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bitigçi</title><subtitle>Blog about programming and languages, as well as resources on how to type Old Turkic on modern systems.</subtitle><author><name>Emir Sarı</name></author><entry xml:lang="tr"><title type="html">Türkçe Vim</title><link href="http://localhost:4000/2019/12/05/turkce-vim.html" rel="alternate" type="text/html" title="Türkçe Vim" /><published>2019-12-05T00:00:00+03:00</published><updated>2019-12-05T00:00:00+03:00</updated><id>http://localhost:4000/2019/12/05/turkce-vim</id><content type="html" xml:base="http://localhost:4000/2019/12/05/turkce-vim.html">&lt;p&gt;Bu giriyi yazmak için bayadır bekliyordum. Yazayım da aradan çıksın.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-12-22T21:59:23+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bitigçi</title><subtitle>Blog about programming and languages, as well as resources on how to type Old Turkic on modern systems.</subtitle><author><name>Emir Sarı</name></author><entry xml:lang="tr"><title type="html">ed (EDitor)- Unix Metin Düzenleyicisi</title><link href="http://localhost:4000/2019/12/22/ed-metin-duzenleyicisi.html" rel="alternate" type="text/html" title="ed (EDitor)- Unix Metin Düzenleyicisi" /><published>2019-12-22T00:00:00+03:00</published><updated>2019-12-22T00:00:00+03:00</updated><id>http://localhost:4000/2019/12/22/ed-metin-duzenleyicisi</id><content type="html" xml:base="http://localhost:4000/2019/12/22/ed-metin-duzenleyicisi.html">&lt;p&gt;Günümüzde işletim sistemi olarak Windows kullanıcılarını saymazsak, büyük olasılıkla bir Unix klonu işletim sistemi kullanıyoruz. O parlak Mac’lerimiz, Linux işletim sistemi, BSD işletim sistemi türevleri… Aslında hepsinin kökeni 1969 yılında serüveni başlayan Unix işletim sisteminin bugünkü son hali. Böyle olunca Unix’in temel parçalarını bugün dahi bu işletim sistemlerinde bulmak olanaklı. Bunlardan biri de &lt;em&gt;ed&lt;/em&gt; metin düzenleyicisi.&lt;/p&gt;
+
+&lt;p&gt;ed’i başlatmak için uçbirimde &lt;code class=&quot;highlighter-rouge&quot;&gt;ed&lt;/code&gt; yazdıktan sonra Enter’a basın.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dec2019/ed1.png&quot; alt=&quot;ed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Artık ed’in içerisindesiniz. Bir şey olmadığını düşünmeyin, ed öntanımlı olarak herhangi bir komut istemi sunmaz, programın çalıştığını imlecin bir alt satıra geçmesinden anlarız. Çıkmak için tahmin edeceğiniz üzere &lt;code class=&quot;highlighter-rouge&quot;&gt;q&lt;/code&gt; yazmanız yeterli. &lt;code class=&quot;highlighter-rouge&quot;&gt;Q&lt;/code&gt; ise değişiklikleri yoksayıp çıkmamıza olanak veriyor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dec2019/ed2.png&quot; alt=&quot;ed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yok benim kafam karışıyor böyle, bana komut kipinde olduğumu anlatacak bir komut işleci gerekiyor diyorsanız &lt;code class=&quot;highlighter-rouge&quot;&gt;-p\X&lt;/code&gt; değişkeni ile (X yerine istediğiniz bir karakteri kullanabilirsiniz) bir komut istemi tanımlayabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dec2019/ed3.png&quot; alt=&quot;ed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bu yazıyı okuyorsanız ve bu tür konular ilginizi çekiyorsa vi ve dolayısıyla vim’den de haberiniz vardır. Ancak yine de ed’in vi’nin atası olduğunu belirtmekte yarar var diye düşünüyorum. Bu ne anlama geliyor, bugün kullandığımız temel vim komutlarının yüzde doksanı ed’de çalışır. Dolayısıyla yazı yazmak için &lt;code class=&quot;highlighter-rouge&quot;&gt;i&lt;/code&gt; (&lt;em&gt;insert&lt;/em&gt;) veya &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; (&lt;em&gt;append&lt;/em&gt;) ile ekleme kipine girip istediğimizi yazmaya başlayabiliriz.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dec2019/ed4.png&quot; alt=&quot;ed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yazacağımızı yazdıktan sonra ed’e işimizin bittiğini ve komut kipine dönmek istediğimizi belirtmek için yeni bir satırda &lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt; yazdıktan sonra Enter’a basıyoruz.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dec2019/ed5.png&quot; alt=&quot;ed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yazdığımız metni kaydetmek için, evet tahmin ettiğiniz üzere &lt;code class=&quot;highlighter-rouge&quot;&gt;w&lt;/code&gt;‘ye bastıktan sonra dosya adını girmemiz yeterli. Vim’de başına &lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt; koyuyorduk burada neden yok diye soracak olursanız, komutların başına &lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt; getirme ed’in bir sonraki sürümü olan ex’te geldi. Bugün de vim kullanırken &lt;code class=&quot;highlighter-rouge&quot;&gt;:&lt;/code&gt; ile girdiğimiz kip &lt;strong&gt;ex kipi&lt;/strong&gt; (komut kipi) olarak adlandırılır.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dec2019/ed6.png&quot; alt=&quot;ed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dosyayı kaydettikten sonra ed bize dosyanın kaç bayt olduğunu sayı ile belirtir. Aynı dosyayı açmak için de komut satırında &lt;code class=&quot;highlighter-rouge&quot;&gt;ed [değişken] [dosya_adı]&lt;/code&gt; dizisini girmemiz yeterli. ed satır bazlı çalışan bir düzenleyici olduğundan bize dosyanın kendisini göstermek yerine yalnızca boyutunu listeleyecektir. Tüm dosya içeriğini listelemek için &lt;code class=&quot;highlighter-rouge&quot;&gt;,p&lt;/code&gt; yazın.&lt;/p&gt;
+
+&lt;p&gt;Yapabilecekleriniz tabii ki bununla sınırlı değil. 5. satıra gitmek mi istiyorsunuz? &lt;code class=&quot;highlighter-rouge&quot;&gt;5&lt;/code&gt; yazın ve Enter’a basın. Son satırı mi görmek istiyorsunuz? &lt;code class=&quot;highlighter-rouge&quot;&gt;n&lt;/code&gt; yazın ve Enter’a basın. Kaydıracın üzerinde olduğu satırı görmek için &lt;code class=&quot;highlighter-rouge&quot;&gt;p&lt;/code&gt; yazın. Kaydıracın üzerinde olduğu satırı değiştirmek için &lt;code class=&quot;highlighter-rouge&quot;&gt;c&lt;/code&gt; yazın ve metni yazıp &lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt; ile çıkın. Geri al? &lt;code class=&quot;highlighter-rouge&quot;&gt;u&lt;/code&gt; hizmetinizde.&lt;/p&gt;
+
+&lt;p&gt;Bütün komutları yazmayacağım, vim bilenler birkaç denemeyle olayı çözebilirler.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dec2019/ed7.png&quot; alt=&quot;ed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Yine vim’en aşina olduğumuz üzere metin bulmak için &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; işlecini kullanmak yeterli. &lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt; son satıra gider, &lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt; ile bir önceki, &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; ile de bir sonraki satırı görüntüleyebilirsiniz. Bu işleçlere sayı ekleyerek istediğiniz kadar ileri ve geri gitmeniz olanaklı.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dec2019/ed8.png&quot; alt=&quot;ed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bul ve değiştir işlemi de yine vim’den bildiğimiz gibi &lt;code class=&quot;highlighter-rouge&quot;&gt;%s/değiştirilecek/yeni/global&lt;/code&gt; komutuyla yapılıyor. Bu şekilde düzenli ifadeler kullanarak metin üzerinde istediğiniz oynamaları yapabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;Neyse, çok oyalandık, beyitimizi bitirelim artık.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dec2019/ed9.png&quot; alt=&quot;ed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bitmiş ve kaydedilmiş hali:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/dec2019/ed10.png&quot; alt=&quot;ed&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ed içerisindeyken kabuk komutlarını başına &lt;code class=&quot;highlighter-rouge&quot;&gt;!&lt;/code&gt; ekleyerek çalıştırabiliyoruz. Yine vim’de en çok kullandığımız özelliklerden bir tanesi.&lt;/p&gt;
+
+&lt;p&gt;Her ne kadar günlük işlerimde ed’i pek kullanmayacak olsam da, işletim sistemini saymadan böyle tarihi bir eserin yine elimizin altında olduğunu bilmek ve kullanabilmek gerçekten hoş bir duygu. Bugün kullandığımız yazılımlar o kadar karmaşıklaştı ki, eskilerin böyle programlarla bugün kullandığımız işletim sistemlerini yazdıklarını düşününce kişi bir tuhaf oluyor.&lt;/p&gt;
+
+&lt;p&gt;ed hakkında daha fazla bilgi almak ve tüm komutlarını görmek için &lt;a href=&quot;https://www.tutorialspoint.com/unix_commands/ed.htm&quot;&gt;bu sayfaya&lt;/a&gt; göz gezdirebilirsiniz.&lt;/p&gt;</content><author><name>emir</name></author><category term="ed" /><category term="unix" /><category term="vim" /><summary type="html">Günümüzde işletim sistemi olarak Windows kullanıcılarını saymazsak, büyük olasılıkla bir Unix klonu işletim sistemi kullanıyoruz. O parlak Mac’lerimiz, Linux işletim sistemi, BSD işletim sistemi türevleri… Aslında hepsinin kökeni 1969 yılında serüveni başlayan Unix işletim sisteminin bugünkü son hali. Böyle olunca Unix’in temel parçalarını bugün dahi bu işletim sistemlerinde bulmak olanaklı. Bunlardan biri de ed metin düzenleyicisi.</summary></entry><entry xml:lang="tr"><title type="html">Türkçe Vim</title><link href="http://localhost:4000/2019/12/05/turkce-vim.html" rel="alternate" type="text/html" title="Türkçe Vim" /><published>2019-12-05T00:00:00+03:00</published><updated>2019-12-05T00:00:00+03:00</updated><id>http://localhost:4000/2019/12/05/turkce-vim</id><content type="html" xml:base="http://localhost:4000/2019/12/05/turkce-vim.html">&lt;p&gt;Bu giriyi yazmak için bayadır bekliyordum. Yazayım da aradan çıksın.&lt;/p&gt;
 
 &lt;p&gt;Vim artık Türkçe. Biraz daha spesifik yazacak olursak 8.1.2200 sürümünden itibaren Türkçe. Hemen şimdi denemek isterseniz Windows için gecelik kur paketlerini &lt;a href=&quot;https://github.com/vim/vim-win32-installer/releases&quot;&gt;bu adresten&lt;/a&gt;, Linux için AppImage kalıplarını da &lt;a href=&quot;https://github.com/vim/vim-appimage/releases&quot;&gt;bu adresten&lt;/a&gt; indirebilirsiniz. macOS ve diğer BSD tayfası güncel Github deposunu klonladıktan sonra birkaç komut girerek kısa sürede derleyebilir. Derleme ve yapma yönergeleri &lt;a href=&quot;https://github.com/vim/vim/blob/master/src/INSTALLmac.txt&quot;&gt;burada&lt;/a&gt;.&lt;/p&gt;
 

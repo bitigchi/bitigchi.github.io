@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang"en">
+    <head>
+        <meta charset="utf-8">
+        <meta itemprop="description" name="description" content="Blog about programming and languages, as well as resources on how to type Old Turkic on modern systems." />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        
+        <meta property="og:locale" content="en">
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="ed (EDitor)- Unix Metin Düzenleyicisi">
+        <meta property="og:url" content="http://localhost:4000/2019/12/22/ed-metin-duzenleyicisi.html">
+        <meta property="og:image" content="http://localhost:4000/thumbs/" />
+        <meta property="og:site_name" content="Bitigçi">
+        <meta property="article:published_time" content="2019-12-22 00:00:00 +0300" />
+        <meta property="og:description" content="Blog about programming and languages, as well as resources on how to type Old Turkic on modern systems.">
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:site_name" content="Bitigçi" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google-site-verification" content="bb3ESMnliXl71pTurYsm13hubExtqdW6F1Zi6_hSHAw" />
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="ed (EDitor)- Unix Metin Düzenleyicisi">
+        <meta name="twitter:description" content="Blog about programming and languages, as well as resources on how to type Old Turkic on modern systems.">
+        <meta name="twitter:site" content="@bitigchi" />
+        <meta name="twitter:creator" content="@bitigchi">
+        <meta name="twitter:card" content="summary">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="application-name" content="Bitigçi" />
+
+        <link rel="stylesheet" href="/assets/css/styles.css" />
+        <link rel="canonical" href="http://localhost:4000">
+        <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Bitigçi" />
+
+        <title>ed (EDitor)- Unix Metin Düzenleyicisi</title>
+    </head>
+
+    <body class="terminal">
+        <div class="container">
+            <header>
+                <nav>
+    
+        <a href="/" >Bitigçi</a> |
+    
+        <a href="/oldTurkic.html" >Old Turkic</a> |
+    
+        <a href="/software.html" >Apps/Software</a> |
+    
+        <a href="/about.html" >About</a> |
+     
+</nav>
+
+            </header>
+
+            <main>
+                <h1>ed (EDitor)- Unix Metin Düzenleyicisi</h1>
+<p>
+    22 Dec 2019
+    
+    
+        - <a href="/authors/emir.html">Emir Sarı</a>
+    
+</p>
+<p>Günümüzde işletim sistemi olarak Windows kullanıcılarını saymazsak, büyük olasılıkla bir Unix klonu işletim sistemi kullanıyoruz. O parlak Mac’lerimiz, Linux işletim sistemi, BSD işletim sistemi türevleri… Aslında hepsinin kökeni 1969 yılında serüveni başlayan Unix işletim sisteminin bugünkü son hali. Böyle olunca Unix’in temel parçalarını bugün dahi bu işletim sistemlerinde bulmak olanaklı. Bunlardan biri de <em>ed</em> metin düzenleyicisi.</p>
+
+<p>ed’i başlatmak için uçbirimde <code class="highlighter-rouge">ed</code> yazdıktan sonra Enter’a basın.</p>
+
+<p><img src="/assets/images/dec2019/ed1.png" alt="ed" /></p>
+
+<p>Artık ed’in içerisindesiniz. Bir şey olmadığını düşünmeyin, ed öntanımlı olarak herhangi bir komut istemi sunmaz, programın çalıştığını imlecin bir alt satıra geçmesinden anlarız. Çıkmak için tahmin edeceğiniz üzere <code class="highlighter-rouge">q</code> yazmanız yeterli. <code class="highlighter-rouge">Q</code> ise değişiklikleri yoksayıp çıkmamıza olanak veriyor.</p>
+
+<p><img src="/assets/images/dec2019/ed2.png" alt="ed" /></p>
+
+<p>Yok benim kafam karışıyor böyle, bana komut kipinde olduğumu anlatacak bir komut işleci gerekiyor diyorsanız <code class="highlighter-rouge">-p\X</code> değişkeni ile (X yerine istediğiniz bir karakteri kullanabilirsiniz) bir komut istemi tanımlayabilirsiniz.</p>
+
+<p><img src="/assets/images/dec2019/ed3.png" alt="ed" /></p>
+
+<p>Bu yazıyı okuyorsanız ve bu tür konular ilginizi çekiyorsa vi ve dolayısıyla vim’den de haberiniz vardır. Ancak yine de ed’in vi’nin atası olduğunu belirtmekte yarar var diye düşünüyorum. Bu ne anlama geliyor, bugün kullandığımız temel vim komutlarının yüzde doksanı ed’de çalışır. Dolayısıyla yazı yazmak için <code class="highlighter-rouge">i</code> (<em>insert</em>) veya <code class="highlighter-rouge">a</code> (<em>append</em>) ile ekleme kipine girip istediğimizi yazmaya başlayabiliriz.</p>
+
+<p><img src="/assets/images/dec2019/ed4.png" alt="ed" /></p>
+
+<p>Yazacağımızı yazdıktan sonra ed’e işimizin bittiğini ve komut kipine dönmek istediğimizi belirtmek için yeni bir satırda <code class="highlighter-rouge">.</code> yazdıktan sonra Enter’a basıyoruz.</p>
+
+<p><img src="/assets/images/dec2019/ed5.png" alt="ed" /></p>
+
+<p>Yazdığımız metni kaydetmek için, evet tahmin ettiğiniz üzere <code class="highlighter-rouge">w</code>‘ye bastıktan sonra dosya adını girmemiz yeterli. Vim’de başına <code class="highlighter-rouge">:</code> koyuyorduk burada neden yok diye soracak olursanız, komutların başına <code class="highlighter-rouge">:</code> getirme ed’in bir sonraki sürümü olan ex’te geldi. Bugün de vim kullanırken <code class="highlighter-rouge">:</code> ile girdiğimiz kip <strong>ex kipi</strong> (komut kipi) olarak adlandırılır.</p>
+
+<p><img src="/assets/images/dec2019/ed6.png" alt="ed" /></p>
+
+<p>Dosyayı kaydettikten sonra ed bize dosyanın kaç bayt olduğunu sayı ile belirtir. Aynı dosyayı açmak için de komut satırında <code class="highlighter-rouge">ed [değişken] [dosya_adı]</code> dizisini girmemiz yeterli. ed satır bazlı çalışan bir düzenleyici olduğundan bize dosyanın kendisini göstermek yerine yalnızca boyutunu listeleyecektir. Tüm dosya içeriğini listelemek için <code class="highlighter-rouge">,p</code> yazın.</p>
+
+<p>Yapabilecekleriniz tabii ki bununla sınırlı değil. 5. satıra gitmek mi istiyorsunuz? <code class="highlighter-rouge">5</code> yazın ve Enter’a basın. Son satırı mi görmek istiyorsunuz? <code class="highlighter-rouge">n</code> yazın ve Enter’a basın. Kaydıracın üzerinde olduğu satırı görmek için <code class="highlighter-rouge">p</code> yazın. Kaydıracın üzerinde olduğu satırı değiştirmek için <code class="highlighter-rouge">c</code> yazın ve metni yazıp <code class="highlighter-rouge">.</code> ile çıkın. Geri al? <code class="highlighter-rouge">u</code> hizmetinizde.</p>
+
+<p>Bütün komutları yazmayacağım, vim bilenler birkaç denemeyle olayı çözebilirler.</p>
+
+<p><img src="/assets/images/dec2019/ed7.png" alt="ed" /></p>
+
+<p>Yine vim’en aşina olduğumuz üzere metin bulmak için <code class="highlighter-rouge">/</code> işlecini kullanmak yeterli. <code class="highlighter-rouge">$</code> son satıra gider, <code class="highlighter-rouge">^</code> ile bir önceki, <code class="highlighter-rouge">+</code> ile de bir sonraki satırı görüntüleyebilirsiniz. Bu işleçlere sayı ekleyerek istediğiniz kadar ileri ve geri gitmeniz olanaklı.</p>
+
+<p><img src="/assets/images/dec2019/ed8.png" alt="ed" /></p>
+
+<p>Bul ve değiştir işlemi de yine vim’den bildiğimiz gibi <code class="highlighter-rouge">%s/değiştirilecek/yeni/global</code> komutuyla yapılıyor. Bu şekilde düzenli ifadeler kullanarak metin üzerinde istediğiniz oynamaları yapabilirsiniz.</p>
+
+<p>Neyse, çok oyalandık, beyitimizi bitirelim artık.</p>
+
+<p><img src="/assets/images/dec2019/ed9.png" alt="ed" /></p>
+
+<p>Bitmiş ve kaydedilmiş hali:</p>
+
+<p><img src="/assets/images/dec2019/ed10.png" alt="ed" /></p>
+
+<p>ed içerisindeyken kabuk komutlarını başına <code class="highlighter-rouge">!</code> ekleyerek çalıştırabiliyoruz. Yine vim’de en çok kullandığımız özelliklerden bir tanesi.</p>
+
+<p>Her ne kadar günlük işlerimde ed’i pek kullanmayacak olsam da, işletim sistemini saymadan böyle tarihi bir eserin yine elimizin altında olduğunu bilmek ve kullanabilmek gerçekten hoş bir duygu. Bugün kullandığımız yazılımlar o kadar karmaşıklaştı ki, eskilerin böyle programlarla bugün kullandığımız işletim sistemlerini yazdıklarını düşününce kişi bir tuhaf oluyor.</p>
+
+<p>ed hakkında daha fazla bilgi almak ve tüm komutlarını görmek için <a href="https://www.tutorialspoint.com/unix_commands/ed.htm">bu sayfaya</a> göz gezdirebilirsiniz.</p>
+
+<p>
+Tagged
+    
+        <a class="post" href="/tag/ed">#ed</a>, 
+    
+        <a class="post" href="/tag/unix">#unix</a>, 
+    
+        <a class="post" href="/tag/vim">#vim</a>
+    
+</p>
+
+            </main>
+
+            <footer>
+                <nav>
+    
+        <a href="/contact/contact.html" >Contact</a> |
+    
+        <a href="/donate.html" >Donate</a> |
+    
+        <a href="https://github.com/bitigchi" >Github</a> |
+    
+        <a href="https://twitter.com/bitigchi" >Twitter</a> |
+    
+        <a href="https://mastodon.social/web/accounts/864602#" >Mastodon</a> |
+    
+        <a href="https://bitigchi.tumblr.com" >Legacy Blog</a> |
+    
+        <a href="/sitemap.xml" >Sitemap</a> |
+    
+</nav>
+
+                <p>This website and its content are licenced under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>, unless stated otherwise within the content and its associated licences.</p>
+
+            </footer>
+        </div>
+    </body>
+</html>
