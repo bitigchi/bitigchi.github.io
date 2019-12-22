@@ -1,5 +1,5 @@
 ---
-title: ed (EDitor)- Unix Metin Düzenleyicisi
+title: ed (EDit text)- Unix Metin Düzenleyicisi
 tags: ["ed", "unix", "vim"]
 lang: tr
 layout: post
