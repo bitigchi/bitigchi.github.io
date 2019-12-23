@@ -58,3 +58,5 @@ ed içerisindeyken kabuk komutlarını başına `!` ekleyerek çalıştırabiliy
 Her ne kadar günlük işlerimde ed'i pek kullanmayacak olsam da, işletim sistemini saymadan böyle tarihi bir eserin yine elimizin altında olduğunu bilmek ve kullanabilmek gerçekten hoş bir duygu. Bugün kullandığımız yazılımlar o kadar karmaşıklaştı ki, eskilerin böyle programlarla bugün kullandığımız işletim sistemlerini yazdıklarını düşününce kişi bir tuhaf oluyor.
 
 ed hakkında daha fazla bilgi almak ve tüm komutlarını görmek için [bu sayfaya](https://www.tutorialspoint.com/unix_commands/ed.htm) göz gezdirebilirsiniz.
+
+Kullanılan dosya: [Tek Yüzük Beyiti (Yüzüklerin Efendisi)](/assets/files/dec2019/tek_yüzük.txt)
