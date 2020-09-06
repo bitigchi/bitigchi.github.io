@@ -14,7 +14,7 @@ For Windows, just install the keyboard layout by double clicking on setup.exe in
 * [macOS](/oldTurkic/mac_old_turkic.zip)
 * [Linux](/oldTurkic/linux_old_turkic.zip)
 
-*Updated 2019/11/02*
+*Updated 2020/09/06*
 
 ## Old Turkic typefaces
 * [Orkun](/oldTurkic/Orkun-Regular.otf)
