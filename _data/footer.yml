@@ -18,6 +18,3 @@
 
 - name: Sitemap
   link: /sitemap.xml
-
-- name: RSS
-  link: https://bitigchi.github.io/feed.xml

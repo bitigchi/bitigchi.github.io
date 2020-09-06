@@ -9,3 +9,6 @@
 
 - name: About
   link: /about.html
+
+- name: RSS
+  link: https://bitigchi.github.io/feed.xml
