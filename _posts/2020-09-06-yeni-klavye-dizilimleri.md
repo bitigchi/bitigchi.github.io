@@ -1,5 +1,5 @@
 ---
-title: "Güncellenmiş Eski Türkçe Klavye Dizilimleri"
+title: "Güncellenmiş Eski Türkçe klavye dizilimleri"
 tags: ["eski türkçe", "vim", "old turkic"]
 lang: tr
 layout: post
