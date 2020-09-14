@@ -7,14 +7,13 @@ description: Resources for typing Old Turkic script on modern operating systems.
 ## Keyboard layouts
 To use Old Turkic script in your computer, you can download packages for your operation system below. Packages are slightly outdated, but still should work fine. If you are using Linux and not comfortable replacing system files, just copy the relevant section containing the keyboard layout from the file contents. You probably (should) know how to do that already, and don't forget to back up the files you are modifying in case something goes wrong.
 
-For macOS, if you want to install the keyboard layout in user-level, put the contents in `/your_user_name/Library/Keyboard Layouts`. If you would like to install it for all users, you can put it in `/Library/Keyboard Layouts`. This will make it available for all users of the system.
+For installing instructions, please refer to the README files inside the bundles.
 
-For Windows, just install the keyboard layout by double clicking on setup.exe inside the package.
 * [Windows](/oldTurkic/win_old_turkic.zip)
 * [macOS](/oldTurkic/mac_old_turkic.zip)
 * [Linux](/oldTurkic/linux_old_turkic.zip)
 
-*Updated 2020/09/06*
+*Updated 2020/09/14*
 
 ## Old Turkic typefaces
 * [Orkun](/oldTurkic/Orkun-Regular.otf)
