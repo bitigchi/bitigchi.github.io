@@ -1,6 +1,6 @@
 ---
 title: "Irk Bitig iOS uygulaması"
-tags: ["iOS", "Irk Bitig", "Eski Türkçe", "blog", "Old Turkic", "Göktürkçe"]
+tags: ["iOS", "Irk Bitig", "Eski Türkçe", "Old Turkic", "Göktürkçe"]
 lang: tr
 layout: post
 author: emir
@@ -10,7 +10,7 @@ author: emir
 
 Irk Bitig, içeriği itibariyle Türk Mitolojisine büyük bir ışık tutmaktadır. Kitapta 65 adet fal bulunuyor ve hangi falın okunacağı üç adet dört yüzlü zarın atılmasıyla ortaya çıkmaktadır. Kitabın ayrıntılı çözümlemesi bugüne kadar birçok değerli Türkbilimci tarafından yapıldı ve bu çalışmalara kolaylıkla erişmek mümkün. Ancak kitabın asıl amacı olan fal okuma için ve kitabın bu yönünü öne çıkarır bir çalışma hiçbir yerde bugüne değin göremedim.
 
-Uzun zamandan beri Eski Türkçe üzerine uygulamalar geliştirmek istiyordum, kısmet Irk Bitig ile başlamakmış. Uygulama iOS 14 ve üzerini destekliyor ve iki adet temel işlevi var; birincisi zar atıp fala bakmak ve falların herbirinin özgün metni, yazıçevrimi, çevirisi ve orijinal fotoğraflarını içererek bir tür referans kaynağı oluşturmak.
+Uzun zamandan beri Eski Türkçe üzerine uygulamalar geliştirmek istiyordum, kısmet Irk Bitig ile başlamakmış. Uygulama iOS 14 ve üzerini destekliyor ve iki adet temel işlevi var; birincisi zar atıp fala bakmak ve falların her birinin özgün metni, yazıçevrimi, çevirisi ve orijinal fotoğraflarını içererek bir tür referans kaynağı oluşturmak.
 
 Uygulamaya ileriki zamanlarda daha çeşitli özellikler de eklemeyi planlıyorum; watchOS ve macOS desteği, Eski Türkçe sözlük ve falların daha ayrıntılı çözümlemeleri bunlar arasında.
 

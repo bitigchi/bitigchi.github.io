@@ -1,6 +1,6 @@
 ---
 title: "RSS beslemesi"
-tags: ["rss", "site", "blog"]
+tags: ["rss", "site"]
 lang: tr
 layout: post
 author: emir
