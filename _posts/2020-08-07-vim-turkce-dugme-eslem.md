@@ -1,6 +1,6 @@
 ---
 title: "Vim için Türkçe düğme eşlemler"
-tags: ["f klavye", "vim", "türkçe"]
+tags: ["f klavye", "vim", "Türkçe"]
 lang: tr
 layout: post
 author: emir

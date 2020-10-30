@@ -1,6 +1,6 @@
 ---
 title: "Güncellenmiş Eski Türkçe klavye dizilimleri"
-tags: ["eski türkçe", "vim", "old turkic"]
+tags: ["Eski Türkçe", "vim", "Old Turkic", "Göktürkçe"]
 lang: tr
 layout: post
 author: emir

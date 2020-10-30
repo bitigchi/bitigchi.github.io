@@ -1,6 +1,6 @@
 ---
 title: "Türkçe Vim"
-tags: ["vim", "türkçe", "yerelleştirme"]
+tags: ["vim", "Türkçe", "yerelleştirme"]
 lang: tr
 layout: post
 ---

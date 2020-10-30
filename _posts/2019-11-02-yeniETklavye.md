@@ -1,6 +1,6 @@
 ---
 title: "Yeni Eski Türkçe Klavye Dizilimi"
-tags: ["göktürkçe", "eski türkçe", "old turkic", "klavye"]
+tags: ["Göktürkçe", "Eski Türkçe", "Old Turkic", "klavye"]
 lang: tr
 layout: post
 author: emir

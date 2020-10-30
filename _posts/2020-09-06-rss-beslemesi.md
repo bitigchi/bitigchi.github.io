@@ -3,7 +3,7 @@ title: "RSS beslemesi"
 tags: ["rss", "site", "blog"]
 lang: tr
 layout: post
-auther: emir
+author: emir
 ---
 Günümüzde artık kimse eskisi gibi RSS kullanmıyor. Herkes artık Twitter'da. Ancak RSS hâlâ birden fazla siteden güncellemeleri kaçırmadan alabilmek için kullanılabilecek en garantili ve efektif yol.
 
